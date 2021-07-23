@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .section-1{
+      height: 130vh;
+    }
+    .floating__block{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+    a {
+      display: inline-block;
+      padding: 5px;
+      background-color: tomato;
+      color: aliceblue;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="section-1">
+    <div class="floating__block">
+      <a href="#" class="floating__btn" id="floating_button_js">Floating btn</a>
+    </div>
+  </div>
+  <div class="section-2 visible_section_js">
+    <a href="#" class="form__button visible_button_js">
+      Form btn
+    </a>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/moduleNav.js"></script>
+</body>
+</html>
