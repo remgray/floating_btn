@@ -1,6 +1,6 @@
 Требуется jQuery
 
-На floating кнопку id=""
+На floating кнопку id="floating_button_js"
 ```html
   <a href="#" id="floating_button_js">Floating btn</a>
 ```
